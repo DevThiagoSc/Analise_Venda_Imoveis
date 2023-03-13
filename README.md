@@ -1,2 +1,6 @@
 # Analise_Venda_Imoveis
-Este repositório é destinado para um projeto em andamento de análise exploratória para geração de insights 
+A ideia deste projeto é praticar e demonstrar minhas habilidades sobre análise exploratória de dados e geração de insights. Para isso, desenvolvi um projeto para uma empresa ficticia de compra e vendas de imóveis com o intuito de otimizar seus negócios. Através da base de dados de vendas anteriores da empresa, verifiquei quais as características mais presentes nos imóveis vendidos e estipulei quais reformas e manutenções poderiam ser feitas nos imóveis para valorizá-los.
+No arquivo Converter_coordenadas_endereco, foi realizado um tratamento para treansformar os dados de coordenadas em endereços de bairro e cidade de cada imóvel. Para fazer isso, foi necessário a utilização da biblioteca GeoPy, que a partir da longitude e latitude dos registros da base de dados, converteu separadamente em cidade e bairro.
+Em Venda_de_imoveis_seattle, está o tratamento de dados, limpeza de dados faltantes e discrepantes, correção do formato da data e desagregação de dados por bairro. Após isso, a análise foi realizada para entender quais características de um imóvel chamava mais atenção dos clientes, de acordo com os imóveis vendidos anteriormente. Além disso, foi realizada uma análise de quais mudanças e reformas poderiam ser realizadas nos imóveis para aumentar sua atração e também valorizá-lo.
+
+O projeto ainda está em andamento.
